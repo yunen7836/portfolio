@@ -23,21 +23,51 @@
   <div id="wrapper">
     <header id="header">
       <h1 class="logo">
-        <span class="logo-name">Hanako Yamada’s</span>
+        <span class="logo-name">Masatoshi Takasu’s</span>
         <span class="logo-title">PORTFOLIO</span>
-        <span class="logo-desc">Webデザイナー ヤマダハナコ</span>
+        <span class="logo-desc">Webエンジニーア 高須 優年</span>
       </h1>
     </header>
     <nav id="gnav">
       <ul>
+        <li><a href="#about">ABOUT ME</a></li>
         <li><a href="#feature">FEATURE</a></li>
         <li><a href="#works">WORKS</a></li>
-        <li><a href="#about">ABOUT</a></li>
         <li><a href="#skill">SKILL</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </nav>
     <main id="contents">
+      <section class="section" id="about">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title">ABOUT ME</h2>
+            <p class="section-desc">
+              見た目は大人、中身は子供。
+              <br>『年齢なんてただの数字』ってローランド様が言いそうな気がします。
+            </p>
+          </div>
+          <div class="two-column-wrapper">
+            <div class="two-column-image">
+              <img src="img/profile/IMG_0373.JPG" alt="">
+            </div>
+            <div class="two-column-desc">
+              <p class="text">
+                こんにちは！私のポートフォリオを見ていただいて、ありがとうございます。
+                <br>高須優年と申します。
+                <br>
+                <br>かなり前にかけたパーマが伸びきっており、久しぶりに会った友人に『汚れた犬みたいだよ』と言われても、犬に見えるならまだもうちょいいけるやろと美容院をまだ先延ばしにできるくらいの胆力の持ち主が私です。
+                <br>
+                <br>生まれてこのかた37年間、プログラミングのミの字も知らぬアラフォーのオジサンでしたが恥ずかしげもなくふわっとこの地に舞い降りてしまいました。
+                <br>
+                <br>こんな私に仕事を任せたいと思われる風変わりで破天荒な方はどうかその気持ちが変わらぬうちに急いでTwetterからでも連絡をくださいませ。
+                <br>
+                <br>仕事を下さい、お願いしまふ。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="section" id="feature">
         <div class="inner">
           <div class="section-title-block">
@@ -48,15 +78,20 @@
           </div>
           <div class="two-column-wrapper">
             <div class="two-column-image">
-              <img src="img/feature/feature.jpg" alt="">
+              <img src="img/feature/screencapture-18-177-240-38-2020-02-10-15_41_15.png" alt="">
             </div>
             <div class="two-column-desc">
               <p class="text">
-                作品タイトル：●●●●●<br> 担当：Design / Coding / WordPress<br> 制作期間：●ヶ月
+                作品タイトル：フリマアプリ<br> 制作スキル：HTML/CSS/Haml/SCSS/jQuery/Ruby/<br>Rails/MySQL<br> 制作期間：2ヶ月
                 <br> URL：
-                <a href="#">http://●●●.com</a><br>
+                <a href="http://18.177.240.38/">http://18.177.240.38/</a><br>
                 <br> コメント：
-                <br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                <br>スクールでの制作物として、『mercari』のコピーサイトを制作しました。
+                <br>こちらのサイトではRailsというフレームワークとRuby言語を使用し、チームで開発を行いました。
+                <br>担当箇所の詳細としては、商品詳細ページやユーザーマイページのフロントエンド、サーバーサイド、そしてメールアドレス・facebook・google認証でのログイン周りを担当しました。
+                <br>またJqueryを用いた、カテゴリー検索リストの動的表現、検索ワードを使った絞り込み検索(AND検索)機能などを担当させてもらいました。
+                <br>特に苦労した点は、ウィザード形式でのユーザーログイン機能の実装のところです。また名前やメールアドレスなどの基本的な情報とは別に、住所情報やSNS情報などをそれぞれ異なるデータベースに保存させる機能の実装で苦労しました。
+                <br>チーム開発自体が初めての経験だったので、コンフリクトなどさまざまな問題にぶち当りましたが、チームメンバーとのコミュニケーションを大切にして協力して完成させることができました。
               </p>
             </div>
           </div>
@@ -73,158 +108,192 @@
           </div>
           <div class="card-wrapper my-gallery">
             <figure class="card">
-              <a href="img/works/work01.jpg" data-size="980x668" class="card-image">
-                <img src="img/works/thumb/thumb_work01.jpg" alt="" />
+              <a href="img/works/portfolio.png" data-size="960x470" class="card-image">
+                <img src="img/works/portfolio.png" alt="" />
               </a>
               <figcaption class="card-caption">
-                <p class="card-caption-title">作品タイトル</p>
-                <p class="card-caption-info">Design / Coding</p>
-                <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
+                <p class="card-caption-title">ポートフォリオサイト</p>
+                <p class="card-caption-info">
+                  <br>Github.ioを用いて制作しました。
+                  <br>
+                  <br>自分のスキル、実績を知ってもらうのと同時に私の人となりも感じていただけるようサイトにして行きたいと思っています。
+                  <br>
+                </p>
+                <p class="card-caption-url"><a class="url-link" href="https://yunen7836.github.io/portfolio/." target="_blank"><br>Link</a></p>
               </figcaption>
             </figure>
             <figure class="card">
-              <a href="img/works/work02.jpg" data-size="980x668" class="card-image">
-                <img src="img/works/thumb/thumb_work02.jpg" alt="" />
+              <a href="img/works/chat-space.png" data-size="960x475" class="card-image">
+                <img src="img/works/chat-space.png" alt="" />
               </a>
               <figcaption class="card-caption">
-                <p class="card-caption-title">作品タイトル</p>
-                <p class="card-caption-info">Design / Coding</p>
-                <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
+                <p class="card-caption-title">チャットアプリ</p>
+                <p class="card-caption-info">
+                  <br>スクールでの制作物として、『chat-space』というチャットができるサイトを制作しました。
+                  <br>
+                  <br>こちらのサイトでは、RailsというフレームワークとRuby言語を使用しています。
+                  <br>
+                  <br>サインアップ、サインイン、ログアウトができ、チャットのグループが作成できるようになっています。
+                  <br>チャットでは非同期通信を用い、文章、画像どちらも送れる仕様となっています。
+                </p>
+                <p class="card-caption-url"><a class="url-link" href="http://18.177.3.121/" target="_blank"><br>Link</a></p>
               </figcaption>
             </figure>
             <figure class="card">
-              <a href="img/works/work03.jpg" data-size="980x668" class="card-image">
-                <img src="img/works/thumb/thumb_work03.jpg" alt="" />
+              <a href="img/works/pakuta.png" data-size="960x1061" class="card-image">
+                <img src="img/works/thumb/thumb-pakuta.png" alt="" />
               </a>
               <figcaption class="card-caption">
-                <p class="card-caption-title">作品タイトル</p>
-                <p class="card-caption-info">Design / Coding</p>
-                <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
+                <p class="card-caption-title">Pakuta(お笑い投稿サイト)</p>
+                <p class="card-caption-info">
+                  <br>テレビでいうとIPPONグランプリの『写真を見て一言』に当たる、お笑い投稿サイトです。笑
+                  <br>スクールでの学習の合間に個人アプリとして開発しました。
+                  <br>
+                  <br>『bokete』という老舗お笑い投稿サイトを参考に、当時の自分の知識で可能な範囲でコピーサイトを作成しました。
+                  <br>ユーザー登録をするとボケの『出題者』としての投稿と、そのお題への『回答者』としてのボケの投稿が可能です。
+                  <br>
+                  <br>また、ユーザーは『回答』が面白いと思ったら『いいね』をする事ができ、そのいいね数に応じて『回答』を上位表示させるランキング機能を実装しています。
+                </p>
+                <p class="card-caption-url"><a class="url-link" href="https://pakuta.herokuapp.com/" target="_blank"><br>Link</a></p>
               </figcaption>
             </figure>
             <figure class="card">
-              <a href="img/works/work04.jpg" data-size="980x668" class="card-image">
-                <img src="img/works/thumb/thumb_work04.jpg" alt="" />
+              <a href="img/works/slo-sch.png" data-size="960x1157" class="card-image">
+                <img src="img/works/thumb/thumb-slo-sch.png" alt="" />
               </a>
               <figcaption class="card-caption">
-                <p class="card-caption-title">作品タイトル</p>
-                <p class="card-caption-info">Design / Coding</p>
-                <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
+                <p class="card-caption-title">趣味ウェブサイト</p>
+                <p class="card-caption-info">
+                  <br>スクール入学前にWordPressで制作したウェブサイトです。
+                  <br>
+                  <br>当時はHTMLやCSSが何なのかも分かっていないような素人でしたが、素人なりに独学で勉強しながら作り上げました。
+                  <br>
+                  <br>スクール入学時から更新が止まっていますが、また余裕ができたら更新をして行きたいと思っています。
+                  <br>
+                  <br>SEO対策も独学で学び、特定ワードでのGoogle検索一位表示を維持していました。(現在は更新が止まっているため順位は落ちています)
+                  <br>
+                  <br>自分がプログラミングの世界に入るきっかけとなった思い出深いサイトです。
+                </p>
+                <p class="card-caption-url"><a class="url-link" href="https://yunen1114.com/" target="_blank"><br>Link</a></p>
 
               </figcaption>
             </figure>
-            <figure class="card">
-              <a href="img/works/work05.jpg" data-size="980x668" class="card-image">
-                <img src="img/works/thumb/thumb_work05.jpg" alt="" />
-              </a>
-              <figcaption class="card-caption">
-                <p class="card-caption-title">作品タイトル</p>
-                <p class="card-caption-info">Design / Coding</p>
-                <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
-              </figcaption>
-            </figure>
-            <figure class="card">
-              <a href="img/works/work06.jpg" data-size="980x668" class="card-image">
-                <img src="img/works/thumb/thumb_work06.jpg" alt="" />
-              </a>
-              <figcaption class="card-caption">
-                <p class="card-caption-title">作品タイトル</p>
-                <p class="card-caption-info">Design / Coding</p>
-                <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
-              </figcaption>
-            </figure>
+
 
           </div>
         </div>
       </section>
 
-      <section class="section" id="about">
-        <div class="inner">
-          <div class="section-title-block">
-            <h2 class="section-title">ABOUT</h2>
-            <p class="section-desc">
-              こんにちは。ヤマダハナコと申します。
-            </p>
-          </div>
-          <div class="two-column-wrapper">
-            <div class="two-column-image">
-              <img src="img/profile/img_profile.png" alt="">
-            </div>
-            <div class="two-column-desc">
-              <p class="text">
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br><br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br><br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <section class="section" id="skill">
         <div class="inner">
           <div class="section-title-block">
             <h2 class="section-title">SKILL</h2>
             <p class="section-desc">
-              業界未経験ですが頑張ります！
+              業界未経験なので吸収率がハンパないはずです。
             </p>
           </div>
           <div class="card-wrapper">
             <div class="card">
               <div class="skill-icon">
-                <img src="img/skill/icon_skill.png" alt="">
+                <img src="img/skill/HTML5_Logo_128.png" alt="">
               </div>
               <div class="skill-desc">
                 <h3 class="skill-desc-title">HTML5/CSS3</h3>
                 <div class="rating">
                   <p class="rate rate4"></p>
                 </div>
-                <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p class="text">HTML、CSSによるWebページの構成、配置、修飾などは難なく可能です。</p>
               </div>
             </div>
             <div class="card">
               <div class="skill-icon">
-                <img src="img/skill/icon_skill.png" alt="">
+                <img src="img/skill/jquery-logo-001.png" alt="">
               </div>
               <div class="skill-desc">
-                <h3 class="skill-desc-title">JavaScript</h3>
+                <h3 class="skill-desc-title">jquery</h3>
                 <div class="rating">
                   <p class="rate rate3"></p>
                 </div>
-                <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p class="text">スクール在学中、何度も壁にぶち当たり瀕死になりましたが、フリマアプリのチーム開発においてあえて難しい動的表現を担当させてもらい克服し、蘇りました。
+                  <br>
+                  <br>もし私がサイヤ人なら、かなり戦闘力が上昇しているはずです。
+                </p>
               </div>
             </div>
             <div class="card">
               <div class="skill-icon">
-                <img src="img/skill/icon_skill.png" alt="">
+                <img src="img/skill/wordpress-logo-002.png" alt="">
               </div>
               <div class="skill-desc">
                 <h3 class="skill-desc-title">WordPress</h3>
                 <div class="rating">
-                  <p class="rate rate4"></p>
+                  <p class="rate rate3"></p>
                 </div>
-                <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p class="text">スクール以前に独学でWebサイトを作成しました。上部のWorksで紹介させていただいていますので、どうぞご覧ください。
+                  <br>
+                  <br>アクセスアップにご協力いただきありがとうございます！
+                </p>
               </div>
             </div>
             <div class="card">
               <div class="skill-icon">
-                <img src="img/skill/icon_skill.png" alt="">
+                <img src="img/skill/ruby.jpg" alt="">
               </div>
               <div class="skill-desc">
-                <h3 class="skill-desc-title">Photoshop</h3>
+                <h3 class="skill-desc-title">Ruby</h3>
                 <div class="rating">
                   <p class="rate rate4"></p>
                 </div>
-                <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p class="text">初めて本格的に学んだプログラミング言語でしたが、すんなり入ってきてスクール時代からの得意言語でした。
+                  <br>
+                  <br>同期の人から『ルビーの高須』と呼ばれていたとかいなかったとか。
+                </p>
               </div>
             </div>
             <div class="card">
               <div class="skill-icon">
-                <img src="img/skill/icon_skill.png" alt="">
+                <img src="img/skill/rails.png" alt="">
               </div>
               <div class="skill-desc">
-                <h3 class="skill-desc-title">Illustrator</h3>
+                <h3 class="skill-desc-title">Ruby on Rails</h3>
+                <div class="rating">
+                  <p class="rate rate4"></p>
+                </div>
+                <p class="text">スクールに入ってからのアプリ開発は全てRailsを用いていたので、いやが応にも身につきました。
+                  <br>
+                  <br>知れば知るほどRailsの便利さ、凄さを感じました。
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/mysql-logo-001.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">mysql</h3>
                 <div class="rating">
                   <p class="rate rate3"></p>
                 </div>
-                <p class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p class="text">ローカルでの開発時は常にMySQLを使っていまいした。
+                  <br>
+                  <br>私にとっては竹馬の友と呼べる存在です。
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/AWS.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">AWS</h3>
+                <div class="rating">
+                  <p class="rate rate3"></p>
+                </div>
+                <p class="text">フリマアプリとチャットアプリはAWSを使ってデプロイしています。
+                  <br>
+                  <br>文字でかくと『AWS』とスッキリしていますが、声に出して読むと『えーダブリューエス』ってなんかスッキリしないですよね。
+                </p>
               </div>
             </div>
           </div>
@@ -235,18 +304,17 @@
           <div class="section-title-block">
             <h2 class="section-title">CONTACT</h2>
             <p class="section-desc">
-              お問合わせは下記のフォームかSNSからご連絡をください。
+              お問合わせはその気持ちが冷めやらぬうちに下記のSNSからご連絡をお待ちしてます。
             </p>
           </div>
           <div class="contact-wrapper">
             <div class="contact-list">
               <ul>
-                <li><a href="#"><img src="img/contact/icon_contact.png" alt=""><span
-                      class="contact-list-desc">フォーム</span></a></li>
-                <li><a href="#" target="_blank"><img src="img/contact/icon_contact.png" alt=""><span
+
+                <li><a href="https://twitter.com/yunen_1114" target="_blank"><img src="img/contact/Twitter_Social_Icon_Rounded_Square_Color.png" alt=""><span
                       class="contact-list-desc">Twitter</span></a></li>
-                <li><a href="#" target="_blank"><img src="img/contact/icon_contact.png" alt=""><span
-                      class="contact-list-desc">Facebook</span></a></li>
+                <li><a href="https://github.com/yunen7836" target="_blank"><img src="img/contact/GitHub-Mark-120px-plus.png" alt=""><span
+                      class="contact-list-desc">Github</span></a></li>
               </ul>
             </div>
           </div>
@@ -259,12 +327,12 @@
           <ul>
             <li><a href="#feature">FEATURE</a></li>
             <li><a href="#works">WORKS</a></li>
-            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
             <li><a href="#skill">SKILL</a></li>
             <li><a href="#contact">CONTACT</a></li>
           </ul>
         </nav>
-        <p class="copyright">Copyright&copy;Hanako Yamada. All Rights Reserved.</p>
+        <p class="copyright">Copyright&copy;Masatoshi Taksu. All Rights Reserved.</p>
       </div>
     </footer>
   </div>
