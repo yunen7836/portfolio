@@ -24,6 +24,10 @@ a {
   text-decoration: none;
 }
 
+.url-link {
+  font-size: 12px;
+}
+
 a:hover,
 a:hover img {
   opacity: .8;
@@ -62,6 +66,7 @@ li {
   width: 100%;
   margin: 0 auto;
   padding: 0 10px;
+  border-top: solid 1px darkgray;
 }
 
 #contents {
@@ -83,6 +88,9 @@ li {
   -ms-align-items: center;
   align-items: center;
   height: 550px;
+  background-image: url(../img/85207.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #header .logo {
@@ -103,7 +111,7 @@ li {
   font-family: 'Cormorant Garamond', serif;
   font-size: 88px;
   font-weight: normal;
-  color: #f39ac7;
+  /* color: #f39ac7; */
   line-height: 1;
   letter-spacing: .1em;
 }
@@ -185,7 +193,7 @@ li {
   font-size: 36px;
   line-height: 1;
   margin-bottom: 10px;
-  color: #f39ac7;
+  /* color: #f39ac7; */
 }
 
 .section .section-desc {
@@ -212,6 +220,7 @@ li {
 
 .two-column-image img {
   margin: 0 auto;
+  box-shadow: 1px 1px 1px 1px #c5c2c2;
 }
 
 .two-column-desc {
@@ -236,10 +245,18 @@ li {
 
 #works .card {
   width: 32%;
+  background-color: white;
+  padding: 1%;
+  border: solid 1px lightgrey;
+
 }
 
 #works .card {
   margin-bottom: 50px;
+}
+
+#works .card img {
+  box-shadow: 1px 1px 1px 1px #c5c2c2;
 }
 
 #works .card-image {
@@ -403,7 +420,7 @@ li {
   flex-wrap: wrap;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: space-around;
   align-self: flex-end;
   ;
 }
